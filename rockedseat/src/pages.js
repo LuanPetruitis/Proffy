@@ -38,8 +38,6 @@ async function pageStudy(req, res) {
     } catch (error) {
         console.log(error)
     }
-
-
 }
 
 function giveClasses(req, res) {
@@ -62,8 +60,7 @@ async function saveClasses(req, res) {
         cost: req.body.cost
     }
 
-    const classScheduleValues = req.body.weekday.map((weekday, index) => {
-
+    const classScheduleValue = req.body.weekday.map((weekday, index) => {
         return {
             weekday,
             time_from: convertHoursToMinutes(req.body.time_from[index]),
@@ -73,9 +70,9 @@ async function saveClasses(req, res) {
 
     try {
         const db = await Database
-        await createProffy(db, { proffyValue, classValue, classScheduleValues })
+        await createProffy(db, { proffyValue, classValue, classScheduleValue })
 
-        let queryString = "?subject=" + req.body.subject
+        let queryString = "?subject=" + req.body.subjects
         queryString += "&weekday="
         req.body.weekday[0]
         queryString += "&time="

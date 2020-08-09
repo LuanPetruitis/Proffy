@@ -7,8 +7,8 @@ module.exports = async function(db, { proffyValue, classValue, classScheduleValu
             whatsapp,
             bio
         ) VALUES (
-            "${proffyValue.avatar}",
             "${proffyValue.name}",
+            "${proffyValue.avatar}",
             "${proffyValue.whatsapp}",
             "${proffyValue.bio}"
         );
