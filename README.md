@@ -20,7 +20,7 @@ O Proffy é uma plataforma feita para conectar alunos e professores, desenvolvid
 <br>
 
 <p align="center">
-  ![Alt text](/rockedseat/public/images/pagina.svg?raw=true "Optional Title")
+  ![Alt text](/rockedseat/public/images/pagina.jpg?raw=true "Optional Title")
 </p>
 
 ## Tecnologias
