@@ -3,14 +3,14 @@ Estou buscando aperfeiçoar esta plataforma com novas funcionalidades, Peço a c
 
 <p>
 
-<img align="right" src="![Alt text](/rockedseat/public/images/landing.svg?raw=true "Optional Title")" width="35%" alt="Proffy">
+![Alt text](/rockedseat/public/images/landing.svg?raw=true "Optional Title")
 
 ## Tópicos 
 
 [Sobre o Proffy](#sobre-o-proffy)
 
 [Tecnologias](#tecnologias)
-
+</p>
 <br>
 
 ## Sobre o Proffy
@@ -20,7 +20,7 @@ O Proffy é uma plataforma feita para conectar alunos e professores, desenvolvid
 <br>
 
 <p align="center">
-  <img src=".github/mockup.png" alt="Página inicial">
+  ![Alt text](/rockedseat/public/images/pagina.svg?raw=true "Optional Title")
 </p>
 
 ## Tecnologias
