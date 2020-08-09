@@ -21,4 +21,4 @@ server
     .get("/study", pageStudy)
     .get("/give-classes", giveClasses)
     .post("/save-classes", saveClasses)
-    .listen(8000)
+    .listen(3000)
