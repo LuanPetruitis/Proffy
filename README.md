@@ -3,7 +3,7 @@ Estou buscando aperfeiçoar esta plataforma com novas funcionalidades, Peço a c
 
 <p>
 
-<img align="right" src="web/src/assets/images/landing.svg?raw=true" width="35%" alt="Proffy">
+<img align="right" src="https://github.com/LuanPetruitis/Proffy/blob/master/rockedseat/public/images/landing.svg" width="35%" alt="Proffy">
 
 ## Tópicos 
 
