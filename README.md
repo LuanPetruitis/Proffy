@@ -21,6 +21,18 @@ O Proffy é uma plataforma feita para conectar alunos e professores, desenvolvid
 
 ![Alt text](/rockedseat/public/images/pagina.jpg?raw=true "Optional")
 
+<br>
+
+# Como colocar para funcionar na sua máquina
+
+<ol>
+    <li> - Acesse o seu terminal</li>
+    <li> - Navegue até o diretório rockedseat</li>
+    <li> - Execute o comando npm install</li>
+    <li> - Execute o comando npm run dev</li>
+    <li> - No navegador coloque localhost:3000</li>
+</ol>
+
 ## Tecnologias
 
 As seguintes tecnologias foram utilizadas no desenvolvimento do projeto:
