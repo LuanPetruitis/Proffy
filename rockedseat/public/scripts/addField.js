@@ -8,19 +8,26 @@
 
  //  Executar uma ação
  function cloneField() {
-     // Duplicar os campos
-     const newFieldContainer = document.querySelector('.schedule-item').cloneNode(true)
+     var time_from = document.getElementById('time_from')
+     var time_to = document.getElementById('time_to')
+     if (time_from.value == "" || time_to.value == "") {
+         alert("É necessário preencher o campo de hora antes de adicionar outro!")
+     } else {
+         // Duplicar os campos  
+         const newFieldContainer = document.querySelector('.schedule-item').cloneNode(true)
 
-     // Pegar os campos
-     const fields = newFieldContainer.querySelectorAll('input')
+         // Pegar os campos
+         const fields = newFieldContainer.querySelectorAll('input')
 
-     // Para cada campo Limpar
+         // Para cada campo Limpar
 
-     fields.forEach(function(field) {
-         // pegar o field do momento e limpa
-         field.value = ""
-     })
+         fields.forEach(function(field) {
+             // pegar o field do momento e limpa
+             field.value = ""
+         })
 
-     // Colocar na página
-     document.querySelector('#schedule-items').appendChild(newFieldContainer)
+         // Colocar na página
+         document.querySelector('#schedule-items').appendChild(newFieldContainer)
+
+     }
  };
