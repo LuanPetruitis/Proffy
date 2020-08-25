@@ -50,13 +50,17 @@ As seguintes tecnologias foram utilizadas no desenvolvimento do projeto:
 ## Funções a ser implementada
 
 [] Mostrar página de sucesso após o cadastro do proffy
+<br />
 [] aguardar 2 segundos na página e redirecionar para a listagem dos proffys, com filtro
+<br />
     - use setTimeout para aguardar os 2 segundos
+<br />
     - location.href = ""
 
 ## 02 - Correção de bugs
 
 [x] Não permitir o usuário colocar um novo campo de dia e horário, se o dia e hora anterior estiver vazio
+<br />
 [] Funcionalidade de deletar um campo de dia e hora
 
 ---
